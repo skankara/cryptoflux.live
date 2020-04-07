@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import NavbarTop from './NavbarTop';
 import * as serviceWorker from './serviceWorker';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  // <React.StrictMode>
+    <NavbarTop />,
+  // </React.StrictMode>,
+  document.getElementById('navbar_attop_zero_row')
 );
 
 // If you want your app to work offline and load faster, you can change

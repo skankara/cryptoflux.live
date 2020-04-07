@@ -1,0 +1,102 @@
+/*Container CSS*/
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+/* Navbar Css */
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#crypto_user_dashboard{
+    margin-left: 20px;
+}
+#crypto_sign_in{
+    margin-left: 20px;
+}
+/* First Row CSS */
+#crypto_firstsection_row {
+    padding-top: 16px !important;
+}
+#crypto_firstsection_news_articles_col{
+    margin-right: 4px !important;
+    width: 60%!important;
+    height: 300px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Articles CSS*/
+.crypto_articles{
+    cursor: pointer;
+}
+#crypto_firstsection_user_dashboard_col{
+    margin-left: 4px !important;
+    width: 40% !important;
+    height: 300px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Make the image fully responsive */
+.carousel-inner {
+    width: 100%;
+    max-height: 280px !important;
+}
+.carousel-item{
+    overflow:hidden !important;
+}
+.carousel-control-next{
+    background-color: beige;
+}
+.carousel-control-prev{
+    background-color: beige;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+  
+/* Second section Css */
+#crypto_secondsection_row {
+    padding-top: 16px !important;
+}
+#crypto_firstsection_user_graph_col{
+    margin-right: 4px !important;
+    width: 40%!important;
+    height: 300px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#crypto_firstsection_companysharemarketdata_col{
+    margin-left: 4px !important;
+    width: 60% !important;
+    height: 300px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#companysharemarketdata_rows{
+    margin-top: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companydetails{
+    text-align: center;
+    width: 30%;
+    padding:0px !important;
+}
+.companystockbuy{
+    padding:2px !important;
+}
+
+/* Footer Css Changes */
+.footer-copyright {
+    background-color: #343a40!important;
+    color: white !important;
+}
+footer {
+    /* position: absolute; */
+    margin-top: 20px !important;
+    bottom: 0;
+    width: 100%;
+}
